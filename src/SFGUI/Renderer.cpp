@@ -6,6 +6,10 @@
 
 // X headers define None which is used by SFML's window style.
 #undef None
+// winuser.h defines LoadImage which is used here
+#ifdef _WIN32
+	#undef LoadImage
+#endif
 
 #include <SFGUI/Renderer.hpp>
 #include <SFGUI/Context.hpp>

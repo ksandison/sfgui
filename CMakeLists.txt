@@ -99,6 +99,8 @@ set(
 	${INC_DIR}/SFGUI/Desktop.inl
 	${INC_DIR}/SFGUI/Engine.hpp
 	${INC_DIR}/SFGUI/Engine.inl
+    ${INC_DIR}/SFGUI/Engines/Bob.hpp
+    ${INC_DIR}/SFGUI/Engines/Bob/Spritebox.hpp
 	${INC_DIR}/SFGUI/Engines/BREW.hpp
 	${INC_DIR}/SFGUI/Entry.hpp
 	${INC_DIR}/SFGUI/FastDelegate.hpp
@@ -153,6 +155,24 @@ set(
 	${SRC_DIR}/SFGUI/Context.cpp
 	${SRC_DIR}/SFGUI/Desktop.cpp
 	${SRC_DIR}/SFGUI/Engine.cpp
+    ${SRC_DIR}/SFGUI/Engines/Bob.cpp
+	${SRC_DIR}/SFGUI/Engines/Bob/Button.cpp
+	${SRC_DIR}/SFGUI/Engines/Bob/CheckButton.cpp
+	${SRC_DIR}/SFGUI/Engines/Bob/ComboBox.cpp
+	${SRC_DIR}/SFGUI/Engines/Bob/Entry.cpp
+	${SRC_DIR}/SFGUI/Engines/Bob/Frame.cpp
+	${SRC_DIR}/SFGUI/Engines/Bob/Image.cpp
+	${SRC_DIR}/SFGUI/Engines/Bob/Label.cpp
+	${SRC_DIR}/SFGUI/Engines/Bob/Notebook.cpp
+	${SRC_DIR}/SFGUI/Engines/Bob/ProgressBar.cpp
+	${SRC_DIR}/SFGUI/Engines/Bob/Scale.cpp
+	${SRC_DIR}/SFGUI/Engines/Bob/Scrollbar.cpp
+	${SRC_DIR}/SFGUI/Engines/Bob/ScrolledWindow.cpp
+	${SRC_DIR}/SFGUI/Engines/Bob/Separator.cpp
+	${SRC_DIR}/SFGUI/Engines/Bob/Spinner.cpp
+	${SRC_DIR}/SFGUI/Engines/Bob/Spritebox.cpp
+	${SRC_DIR}/SFGUI/Engines/Bob/ToggleButton.cpp
+	${SRC_DIR}/SFGUI/Engines/Bob/Window.cpp
 	${SRC_DIR}/SFGUI/Engines/BREW.cpp
 	${SRC_DIR}/SFGUI/Engines/BREW/Button.cpp
 	${SRC_DIR}/SFGUI/Engines/BREW/CheckButton.cpp
